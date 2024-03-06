@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/aldrich"
+        android:text="e-SSCelect"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:translationZ="90dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wave"
+        android:layout_above="@id/login_form"
+        android:layout_marginBottom="-35dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ssc_login"
+            android:layout_gravity="bottom"></ImageView>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="20dp"
+        android:layout_marginBottom="-11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="22dp"
+            android:paddingVertical="25dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:text="Welcome"
+                android:textSize="25sp"
+                android:textColor="@color/tertiary_color">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please enter your information to login"
+                android:alpha="0.7"
+                android:textStyle="bold"
+                android:textSize="13sp">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></View>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/studid"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Student ID"
+                    android:drawableEnd="@drawable/studid_icon">
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="18dp"></View>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Password"
+                    android:drawableEnd="@drawable/lock"
+                    android:inputType="textPassword">
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="21dp"></View>
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="LOGIN"
+                android:textStyle="bold"></Button>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"></View>
+            <Button
+                android:id="@+id/setupbtn"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Register Account"
+                android:background="@drawable/button_container"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

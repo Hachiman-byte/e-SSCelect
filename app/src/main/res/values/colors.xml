@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#F4F4F4</color>
+
+    <color name="primary_color">#1DB954</color>
+    <color name="secondary_color">#50C878</color>
+    <color name="tertiary_color">#00A86B</color>
+    <color name="profile_tab">#E2FFEC</color>
+
+    <color name="highlightColor">#FFECB3</color>
+    <color name="highlightBorderColor">#FFEB3B</color>
+    <color name="profile_gray">#C0C0C0</color>
+</resources>

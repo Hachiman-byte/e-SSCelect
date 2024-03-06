@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:id="@+id/candidateImagePopup"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="10dp"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstname:"
+                android:fontFamily="@font/bungee"
+                android:layout_marginLeft="15dp"></TextView>
+            <TextView
+                android:id="@+id/popupfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="firstname"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:alpha="0.7"
+                android:layout_marginBottom="7dp"></TextView>
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/profile_gray"
+                android:layout_marginHorizontal="15dp"></View>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lastname:"
+                android:fontFamily="@font/bungee"
+                android:layout_marginLeft="15dp"></TextView>
+            <TextView
+                android:id="@+id/popuplastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lastname"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:alpha="0.7"
+                android:layout_marginBottom="7dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/profile_gray"
+                android:layout_marginHorizontal="15dp"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:fontFamily="@font/bungee"
+                android:layout_marginLeft="15dp"></TextView>
+            <TextView
+                android:id="@+id/popupgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gender"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:alpha="0.7"
+                android:layout_marginBottom="7dp"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/profile_gray"
+                android:layout_marginHorizontal="15dp"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Partylist:"
+                android:fontFamily="@font/bungee"
+                android:layout_marginLeft="15dp"></TextView>
+            <TextView
+                android:id="@+id/popuppartylist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="partylist"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:alpha="0.7"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/primary_color"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/profile_gray"
+                android:layout_marginHorizontal="15dp"></View>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

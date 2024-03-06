@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "607757861210",
+    "firebase_url": "https://sscvoting-9b667-default-rtdb.firebaseio.com",
+    "project_id": "sscvoting-9b667",
+    "storage_bucket": "sscvoting-9b667.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607757861210:android:afbaf1a6a2cf86b8083363",
+        "android_client_info": {
+          "package_name": "com.example.ssc_voting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbmWKyqGb1kR-UbRY36m0M7ufxKNPvGwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607757861210:android:c3c9abbed418e4cc083363",
+        "android_client_info": {
+          "package_name": "com.example.sscvoting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbmWKyqGb1kR-UbRY36m0M7ufxKNPvGwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
